@@ -194,7 +194,7 @@ client.once('ready', () => {
     client.user.setPresence({
         status: 'available',
         activity: {
-            name: 'HENTAI',
+            name: 'PS7M',
             type: 'WATCHING',
             url: 'https://discord.com/'
         }
@@ -214,4 +214,4 @@ client.on('error', e => {
   console.log(chalk.b.red(e.replace(regToken, 'that was.redacted')));
 });
 
-client.login("PASTE YOUR BOT TOKEN");
+client.login("MTAwNjE5NDMwNTM4NTM2OTYwMA.GVmmAY.DEXciWmy_xja0S_cjvrFMVv8kR7AVtWYtKhY3Y");
