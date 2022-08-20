@@ -214,4 +214,4 @@ client.on('error', e => {
   console.log(chalk.b.red(e.replace(regToken, 'that was.redacted')));
 });
 
-client.login("MTAwNjE5NDMwNTM4NTM2OTYwMA.GQViug.qv4YxG5PpbSET5_QaoFGrnB13U-1QI8f4H-lpM");
+client.login("MTAwNjE5NDMwNTM4NTM2OTYwMA.GtbFy1.Bv0WfDPx-S0hr3U4y5e980W1pzU2WMLjdpG6fc");
