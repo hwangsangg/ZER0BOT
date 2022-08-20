@@ -33,7 +33,7 @@ setTimeout(function(){
 
 const embed = new Discord.MessageEmbed()
 	.setColor('RANDOM')
-	.setTitle('🚀 **ZER0 BOT** 🚀')
+	.setTitle('🚀 **HwangSangg BOT** 🚀')
 	.setTimestamp()
   .setDescription("**𝓟𝓵𝓪𝓷**: `VIP 👨` \n **𝓣𝓪𝓻𝓰𝓮𝓽** : `" + host + "` \n **𝓜𝓮𝓽𝓱𝓸𝓭** : `HTTP-RAW 💣` \n **𝓣𝓲𝓶𝓮** : `" + duration + "`")
 	.setFooter('© Developer: zxcr9999#1770', client.user.avatarURL)
@@ -55,10 +55,10 @@ var gify = ["https://media.giphy.com/media/6036p0cTnjUrNFpAlr/giphy.gif"];
 console.log('Start Verify ID Discord:' +  message.guild.id)
 const embed = new Discord.MessageEmbed()
 	.setColor('RANDOM')
-	.setTitle('🚀 **ZER0 BOT** 🚀')
+	.setTitle('🚀 **HwangSangg BOT** 🚀')
 	.setTimestamp()
 	.setDescription("**► 𝓟𝓵𝓮𝓪𝓼𝓮 𝔀𝓪𝓲𝓽 𝓯𝓸𝓻 𝓿𝓮𝓻𝓲𝓯𝓲𝓬𝓪𝓽𝓲𝓸𝓷 **")
-	.setFooter('© Developer: zxcr9999#1770', client.user.avatarURL)
+	.setFooter('© Developer: fb.com/hwangsangg', client.user.avatarURL)
 	.setTimestamp()
 	.setImage(loadinggif)
 	.setThumbnail("")
@@ -75,6 +75,6 @@ exports.conf = {
 
 exports.help = {
   name: 'raw',
-  description: 'zxcr9999',
+  description: 'hwangsangg',
   usage: 'raw'
 }
