@@ -16,7 +16,7 @@ if(!args[0]) {
 	const embed1 = new Discord.MessageEmbed()
 	.setColor('RANDOM')
 	.setTitle('WARRING')
-	.setDescription("`Ex ;flood https://example.com/ 5000 get/post 60`")
+	.setDescription("`Ex ;flood https://example.com/ 120`")
 	.setFooter("Please do not attack government website!")
 	message.channel.send(embed1);
 	return;
@@ -35,7 +35,7 @@ const embed = new Discord.MessageEmbed()
 	.setColor('RANDOM')
 	.setTitle('🚀 **HwangSangg BOT** 🚀')
 	.setTimestamp()
-  .setDescription("**𝓟𝓵𝓪𝓷**: `VIP 👨` \n **𝓣𝓪𝓻𝓰𝓮𝓽** : `" + host + "` \n **𝓜𝓮𝓽𝓱𝓸𝓭** : `HTTP-Flood 💣` \n **𝓣𝓲𝓶𝓮** : `" + duration + "`")
+  .setDescription("**𝓟𝓵𝓪𝓷**: `VIP 👨` \n **𝓣𝓪𝓻𝓰𝓮𝓽** : `" + host + "` \n **𝓜𝓮𝓽𝓱𝓸𝓭** : `HTTP-FLOOD 💣` \n **𝓣𝓲𝓶𝓮** : `" + duration + "`")
 	.setFooter('© Developer: hwangsangg', client.user.avatarURL)
 	.setTimestamp()
 	.setImage(attackgif)
